@@ -5,4 +5,4 @@ image:
 
 service:
   enabled: true
-  activeColor: blue  # 🔁 traffic switch yahin se hota hai
+  activeColor: green  # 🔁 traffic switch yahin se hota hai
