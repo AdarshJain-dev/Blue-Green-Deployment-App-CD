@@ -6,9 +6,10 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   ports:
-  - port: {{ .Values.service.port }}
-    targetPort: {{ .Values.containerPort }}
+    - port: {{ .Values.service.port }}
+      targetPort: {{ .Values.containerPort }}
   selector:
     app: bankapp
     version: {{ .Values.service.activeColor }}
 {{- end }}
+
