@@ -12,4 +12,3 @@ spec:
     app: bankapp
     version: {{ .Values.service.activeColor }}
 {{- end }}
-
