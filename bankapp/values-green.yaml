@@ -1,7 +1,5 @@
-color: green
-
-image:
-  tag: "15"
-
 service:
-  activeColor: green # 🔵 still blue until promotion
+  enabled: true
+  type: LoadBalancer
+  port: 80
+  activeColor: green   # 🔁 traffic switch happens here
