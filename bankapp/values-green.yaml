@@ -4,4 +4,4 @@ image:
   tag: "15"
 
 service:
-  activeColor: blue # 🔵 still blue until promotion
+  activeColor: green # 🔵 still blue until promotion
