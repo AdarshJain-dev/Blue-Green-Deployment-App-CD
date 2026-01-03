@@ -1,2 +1,7 @@
+color: blue
+
+image:
+  tag: blue
+
 service:
   enabled: false
