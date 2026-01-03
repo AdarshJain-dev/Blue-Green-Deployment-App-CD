@@ -1,5 +1,8 @@
+color: green
+
+image:
+  tag: "15"
+
 service:
   enabled: true
-  type: LoadBalancer
-  port: 80
-  activeColor: green   # 🔁 traffic switch happens here
+  activeColor: green   # 🔁 traffic switch yahin se hota hai
